@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./reset.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;600&family=Poppins:wght@500&family=Rubik:wght@300&display=swap" rel="stylesheet">
+  <title>Countdown Page</title>
+</head>
+<body>
+  <article>
+    <section>
+      <h1><a href="http://127.0.0.1:5500/index.html">READY TO LAUNCH IN...</a></h1>
+      <form>
+        <input type="date" id="date" value="" class="selectorDate">
+        <div class="interactOption">
+          <input type="button" value="Start" onclick="startTime()" class="startTime" id="start">
+          <input type="reset" value="Reset" onclick="clear()" id="reset" class="clear">
+        </div>
+      </form>
+      <span id="timer" class="mensageFinal"></span>
+      <ul id="list" class="listOFF">
+        <div>
+          <li class="dates">Years</li>
+          <li><span id="years">00</span></li>
+        </div>
+        <p class="doublePoint"> : </p>
+        <div>
+          <li class="dates">Days</li>
+          <li><span id="days">00</span></li>
+        </div>
+        <p class="doublePoint"> : </p>
+        <div>
+          <li class="dates">Hours</li>
+          <li><span id="hours">00</span></li>
+        </div>
+        <p class="doublePoint"> : </p>
+        <div>
+          <li class="dates">Minutes</li>
+          <li><span id="minutes">00</span></li>
+        </div>
+        <p class="doublePoint"> : </p>
+        <div>
+          <li class="dates">Seconds</li>
+          <li><span id="seconds">00</span></li>
+        </div>
+      </ul>
+      <p>Subscribe to learn more about the launch!</p>
+      <button type="button" class="subscribe" onclick="subscribe()">Subscribe</button>
+    </section>
+    <img src="./images/rocket.svg" class="rocket-img" alt="Imagem de foguete no espaço">
+  </article>
+  <footer>
+    Coded By <a href="https://github.com/nadersirio">Náder W. S. Sírio.</a>
+  </footer>
+<script src="./script.js"></script>
+</body>
+</html>
