@@ -1,6 +1,8 @@
 # Countdown-Page
 Esta é uma versão adaptada que fiz de um desafio RocketSeat.
 
+https://nadersirio.github.io/Countdown-Page/
+
 SOBRE O PROJETO
 
 Neste projeto, meu objetivo era criar um contador regressivo. Inicialmente era um desafio do Rocketseat, porém, a medida avançava no tema, optei por incluir novas funcionalidades.
